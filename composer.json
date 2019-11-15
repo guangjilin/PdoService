@@ -1,6 +1,7 @@
 {
     "name": "ray/pdo-service",
     "description": "php pdo service",
+    "type": "library",
     "authors": [
         {
             "name": "linjiguang",
@@ -10,9 +11,13 @@
     "require": {
         "php": ">=7.0.0"
     },
+    "require-dev": {
+        "php": ">=7.0.0"
+    },
     "autoload": {
         "psr-4": {
             "RMysql\\": "src/RMysql"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
